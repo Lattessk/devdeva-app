@@ -1,0 +1,23 @@
+@import '~antd/es/style/themes/default.less';
+
+
+
+.customtable {
+    :global {
+        .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tfoot > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tfoot > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tfoot > tr > td {
+            border-right: 1px solid #0000001f !important;
+        }
+        .ant-table-thead > tr > th {
+            background: #bfbfbf
+        }
+        .ant-table-tbody > tr > td {
+            border-bottom: 1px solid #0000001f !important;
+        }
+        .ant-table-footer {
+            background: #bfbfbf 
+        }
+        .ant-table.ant-table-bordered > .ant-table-footer {
+            padding: 0 8px;
+        }
+    }
+}
